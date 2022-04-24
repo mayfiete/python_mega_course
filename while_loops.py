@@ -10,3 +10,11 @@ username = ''
 
 while username != 'admin':
     username = input("Username: ")
+
+
+while True: 
+    username = input("Username: ")
+    if username == 'admin':
+        break
+    else: 
+        print("Access denied")
